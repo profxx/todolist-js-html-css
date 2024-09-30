@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+}
+h1{
+    margin-bottom: 20px;
+}
+.central{
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    background-color: crimson;
+    border-radius: 30px;
+}
+.central-header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.central-header input{
+    height: 26px;
+    width: 300px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(197, 203, 203);
+    font-size: 16px;
+}
+.central-header button{
+    height: 40px;
+    width: 100px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgb(33, 33, 33);
+    font-size: 16px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px;
+    padding: 12px;
+    background-color: rgb(197, 203, 203);
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+}
+.task img{
+    height: 26px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.task:hover img{
+    opacity: 1;
+}
+.concluded{
+    background-color: rgb(136, 139, 139);
+    text-decoration: line-through;
+}
